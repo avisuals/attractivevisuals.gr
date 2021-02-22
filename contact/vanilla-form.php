@@ -7,14 +7,6 @@
  * http://codecanyon.net/item/vanilla-form-modern-responsive-contact-form/10447733
  */
 
-/*
- * Vanilla Form v. 2.0.0
- * Author: Michal Szepielak
- *
- * Product info and license terms:
- * http://codecanyon.net/item/vanilla-form-modern-responsive-contact-form/10447733
- */
-
 use VanillaForm\MailSender;
 use VanillaForm\Utils;
 
