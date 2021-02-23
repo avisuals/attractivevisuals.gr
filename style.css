@@ -440,6 +440,7 @@ hr.double {
     position: relative;
     padding-top: 70px;
     padding-bottom: 70px;
+    background-color: transparent;
 }
 .divider-icon i {
     position: absolute;
@@ -449,14 +450,14 @@ hr.double {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 18px;
-    color: rgba(21, 21, 21, 0.15);
+    color: rgba(255, 255, 255, 0.63);
 }
 .divider-icon:before,
 .divider-icon:after {
     position: absolute;
     top: 50%;
     content: "";
-    border-top: 1px solid rgba(21, 21, 21, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.63);
     width: calc(50% - 20px)
 }
 .divider-icon:before {
