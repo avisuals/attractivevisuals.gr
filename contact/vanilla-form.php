@@ -7,6 +7,14 @@
  * http://codecanyon.net/item/vanilla-form-modern-responsive-contact-form/10447733
  */
 
+/*
+ * Vanilla Form v. 2.0.0
+ * Author: Michal Szepielak
+ *
+ * Product info and license terms:
+ * http://codecanyon.net/item/vanilla-form-modern-responsive-contact-form/10447733
+ */
+
 use VanillaForm\MailSender;
 use VanillaForm\Utils;
 
@@ -51,7 +59,7 @@ $vf_config = array(
      * E.g. Single recipient
      * 'emailSender' => 'john@domain.com',
      */
-    'emailSender' => 'visualsattractive@gmail.com'
+    'emailSender' => 'john@domain.com'
     /*** /Code Snippet - quick-start ***/
 );
 $vfSender = new MailSender($vf_config);
