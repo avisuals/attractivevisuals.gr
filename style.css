@@ -5288,7 +5288,7 @@ footer.inverse-text p {
     border-color: rgba(255, 255, 255, 0.8);
 }
 .inverse-text .process-wrapper.arrow [class*="col-"]:before {
-    color: rgba(255, 255, 255, 0.3);
+    color: rgb(255, 255, 255);
 }
 .inverse-text .process-wrapper.line [class*="col-"]:before,
 .inverse-text .process-wrapper.line [class*="col-"]:after {
@@ -6034,7 +6034,7 @@ list-blue i {
         position: absolute;
         top: 21px;
         left: 0;
-        color: rgba(21, 21, 21, 0.15)
+        color: rgba(255, 255, 255, 0.637)
     }
     .process-wrapper.arrow [class*="col-"]:first-child:before {
         display: none;
