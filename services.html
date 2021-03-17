@@ -45,7 +45,6 @@
           <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#">Χρήσιμα</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="files-upload.html">Ανεβασμα Αρχείων</a></li>
-              <li><a class="dropdown-item" href="404.html">Αξιολογηση</a></li>
             </ul>
             </li>
             <!--/.dropdown-menu --> 
@@ -72,17 +71,18 @@
   <div class="wrapper dark-wrapper">
       <div class="container inner">
         <p class="lead larger text-center">Είμαστε μια ομάδα φωτογράφων με έδρα την Ξάνθη. Μας αρέσει να μετατρέπουμε τις ιδέες σε όμορφα πράγματα!</p>
-          <div class="space30"></div>
+          <div class="space20"></div>
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
-            <div id="accordion2" class="accordion-wrapper lined">
-               <!-- /.card -->
-              <div class="card">
-                <div class="card-header text-center">
-                  <h3> <a data-toggle="collapse" data-parent="#accordion2" href="#collapse2-1">Φωτογραφιση</a> </h3>
-                </div>
-                <!-- /.card-header -->
-                <div id="collapse2-1" class="collapse show">
+            <div class="tabs-wrapper lined text-center">
+              <ul class="nav nav-tabs">
+                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#tab1-1">Φωτογραφιση</a></li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#tab1-2">Κινηματογραφηση</a></li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#tab1-3">Σχεδιασμος</a></li>
+              </ul>
+              <!-- /.nav-tabs -->
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab1-1">
                   <div class="card-block row gutter-50 text-center">
                     <!--/column -->
                     <div class="col-md-4"> <span class="icon icon-color color-default fs-48 mb-20"><i class="si-love_wedding-rings"></i></span>
@@ -110,17 +110,8 @@
                       <h5>Τοπίων</h5>
                     </div>
                   </div>
-                  <!-- /.card-block --> 
                 </div>
-                <!-- /.collapse --> 
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header text-center">
-                  <h3> <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse2-2">Κινηματογραφηση</a></h3>
-                </div>
-                <!-- /.card-header -->
-                <div id="collapse2-2" class="collapse">
+                <div class="tab-pane fade" id="tab1-2">
                   <div class="card-block row gutter-50 text-center">
                     <!--/column -->
                     <div class="col-md-4"> <span class="icon icon-color color-default fs-48 mb-20"><i class="si-love_wedding-rings"></i></span>
@@ -135,17 +126,8 @@
                       <h5>Προτάσεων Γάμου</h5>
                     </div>
                   </div>
-                  <!-- /.card-block --> 
                 </div>
-                <!-- /.collapse --> 
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header text-center">
-                  <h3> <a class="collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse2-3">Σχεδιασμος</a></h3>
-                </div>
-                <!-- /.card-header -->
-                <div id="collapse2-3" class="collapse">
+                <div class="tab-pane fade" id="tab1-3">
                   <div class="card-block row gutter-50 text-center">
                     <!--/column -->
                     <div class="col-md-4"> <span class="icon icon-color color-default fs-48 mb-20"><i class="si-design_image-crop"></i></span>
@@ -172,43 +154,17 @@
                     <div class="col-md-4"> <span class="icon icon-color color-default fs-48 mb-20"><i class="si-seo_seo-list"></i></span>
                       <h5>Φυλλαδίων</h5>
                     </div>
-                  </div>
-                  <!-- /.card-block --> 
+                  </div> 
                 </div>
-                <!-- /.collapse --> 
               </div>
-              <!-- /.card --> 
+              <!-- /.tab-content --> 
             </div>
-            <!-- /.accordion-wrapper --> 
+            <!-- /.tabs-wrapper --> 
           </div>
           <!-- /column --> 
         </div>
-        <!-- /.row --> 
-        <div class="divider-icon"><i class="si-photo_aperture"></i></div>
-
-            <h2 class="section-title mb-40 text-center">Διαδικασία Επεξεργασίας</h2>
-            <div class="row gutter-50 gutter-md-30 process-wrapper arrow arrow-white text-center">
-              <div class="col-md-3"> <span class="icon icon-bg bg-default mb-20"><span class="number">01</span></span>
-                <h5>Γενική Ιδέα</h5>
-              </div>
-              <!--/column -->
-              <div class="col-md-3"> <span class="icon icon-bg bg-default mb-20"><span class="number">02</span></span>
-                <h5>Προετοιμασία</h5>
-              </div>
-              <!--/column -->
-              <div class="col-md-3"> <span class="icon icon-bg bg-default mb-20"><span class="number">03</span></span>
-                <h5>Επεξεργασία</h5>
-              </div>
-              <!--/column -->
-              <div class="col-md-3"> <span class="icon icon-bg bg-default mb-20"><span class="number">04</span></span>
-                <h5>Τελειοποίηση</h5>
-              </div>
-              <!--/column --> 
-            </div>
-            <!--/.row --> 
-
-        <div class="divider-icon"><i class="si-photo_aperture"></i></div>
-
+        <!-- /.row -->
+      <div class="divider-icon"><i class="si-photo_aperture"></i></div>
       <!-- Customers --> 
       <h2 class="section-title mb-40 text-center"> Οι πελάτες μας</h2>
       <div class="swiper-container-wrapper swiper-col6" data-aos="fade">
@@ -222,8 +178,8 @@
           </div>
           <!-- /.swiper-wrapper --> 
         </div>
-        <!-- /.swiper-container 
-        <div class="swiper-pagination gap-large"></div> -->
+        <!-- /.swiper-container -->
+        <div class="swiper-pagination gap-large"></div> 
       </div>
       </div>
       <!-- /.container -->  
